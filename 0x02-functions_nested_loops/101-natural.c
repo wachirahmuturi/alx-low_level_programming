@@ -1,19 +1,20 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
-  * multiples - prints sum of all
+  * main - prints sum of all
   * the multiples of
   * 3 or 5
   * below 1024 followed by a new line
   *
-  * Return: sum
+  * Return: 0
   */
 
-int multiples(void)
+int main(void)
 {
 	int n;
 	int sum;
 
+	n = 0;
 	sum = 0;
 
 	while (n < 1024)
@@ -24,7 +25,7 @@ int multiples(void)
 		}
 		n++;
 	}
-	_putchar(sum);
-	_putchar('\n');
+	printf("%d\n", sum);
+
 	return (0);
 }
