@@ -4,9 +4,12 @@
   *
   * Return: Always 0 (success)
   */
+
 int main(void)
 {
-	char alpha = 'a';
+	char alpha
+
+	alpha = 'a';
 
 	while (alpha <= 'z')
 	{
