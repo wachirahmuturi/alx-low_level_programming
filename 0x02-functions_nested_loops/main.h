@@ -99,5 +99,5 @@ void print_times_table(int n);
   * below 1024 followed by a new line
   * Return: always 0
   */
-int multiples_3_or_5(void);
+int multiples(void);
 #endif
