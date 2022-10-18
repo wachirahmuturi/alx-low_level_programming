@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 
 	alpha = 'a';
 
-	int sum 
+	int sum; 
 	
 	sum = 0;
 
