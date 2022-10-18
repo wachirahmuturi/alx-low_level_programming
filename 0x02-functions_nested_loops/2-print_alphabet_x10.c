@@ -8,10 +8,9 @@
 void print_alphabet_x10(void)
 {
 	char alpha;
+	int sum;
 
 	alpha = 'a';
-
-	int sum;
 
 	sum = 0;
 
