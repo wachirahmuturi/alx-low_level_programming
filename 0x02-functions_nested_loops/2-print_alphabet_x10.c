@@ -5,6 +5,7 @@
   *
   * Return: Always 0.
   */
+
 void print_alphabet_x10(void)
 {
 	char alpha;
@@ -24,6 +25,4 @@ void print_alphabet_x10(void)
 		sum++;
 	}
 	_putchar('\n');
-
-	return (0);
 }
