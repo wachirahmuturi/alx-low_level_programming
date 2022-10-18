@@ -11,9 +11,10 @@
 
 int multiples(void)
 {
-	int n = 0;
+	int n;
+	int sum;
 
-	int sum = 0;
+	sum = 0;
 
 	while (n < 1024)
 	{
